@@ -1,0 +1,49 @@
+/* Header Component */
+.nav-item .nav-link:hover {
+  cursor: pointer;
+}
+
+.dropdown-container {
+  position: absolute;
+  width: 60%;
+
+  left: 25%;
+  background-color: #8f6060;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  min-height: 200px;
+  z-index: 1000;
+}
+
+.dropdown-content {
+  display: flex;
+  flex-direction: row; /* Ensure content is in row direction */
+  flex-wrap: wrap; /* Allow wrapping */
+  gap: 10px;
+  width: 100%;
+  display: flex; /* Make it a flex container */
+  flex-direction: column; /* Column direction for dropdown content */
+  justify-content: space-between; /* Center content vertically */
+}
+
+.list-unstyled {
+  margin: 0;
+  padding: 0;
+  display: flex; /* Make it a flex container */
+  flex-wrap: wrap; /* Allow wrapping of list items */
+  width: 100%;
+  list-style: none; /* Remove default list styles */
+}
+
+.list-unstyled li {
+  flex: 1 1 calc(20% - 10px); /* Adjust the columns */
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+  align-items: center;
+}
+
+.list-unstyled li:hover {
+  background-color: #f8f9fa;
+}
