@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import '../assets/header.css';
+
 
 const Header = () => {
   const [dropdownContent, setDropdownContent] = useState(null);
@@ -8,8 +10,17 @@ const Header = () => {
       <div className="d-flex" style={{
         alignItems: 'center'
       }}>
-        <img src="./images/p1.jpg" alt="" style={{ width: '300px', height: '200px', marginRight: '10px', padding: '5px' }} />
-        <ul className="list-unstyled p-2">
+        <img src="./images/jacket2.jpg" alt="" style={{ width: '400px', height: '300px', marginRight: '10px', padding: '5px' }} />
+        <ul className="list p-2">
+          <li>T-shirts</li>
+          <li>Jackets</li>
+          <li>Jeans</li>
+          <li>Shoes</li>
+          <li>Tracks</li>
+          <li>Jersey</li>
+          <li>Garments</li>
+          <li>Tops</li>
+          <li>Blazers</li>
           <li>T-shirts</li>
           <li>Jackets</li>
           <li>Jeans</li>
@@ -26,8 +37,8 @@ const Header = () => {
       <div className="d-flex " style={{
         alignItems: 'center'
       }}>
-        <img src="./images/p1.jpg" alt="" style={{ width: '300px', height: '200px', marginRight: '10px', padding: '5px' }} />
-        <ul className="list-unstyled p-2">
+        <img src="./images/lipstick1.jpg" alt="" style={{ width: '400px', height: '300px', marginRight: '10px', padding: '5px' }} />
+        <ul className="list p-2">
           <li>Skincare</li>
           <li>Haircare</li>
           <li>Makeup</li>
@@ -40,8 +51,8 @@ const Header = () => {
       <div className="d-flex" style={{
         alignItems: 'center'
       }}>
-        <img src="./images/p1.jpg" alt="" style={{ width: '300px', height: '200px', marginRight: '10px', padding: '5px' }} />
-        <ul className="list-unstyled p-2">
+        <img src="./images/camera2.jpg" alt="" style={{ width: '400px', height: '300px', marginRight: '10px', padding: '5px' }} />
+        <ul className="list p-2">
           <li>Mobile Phones</li>
           <li>Laptops</li>
           <li>Cameras</li>
@@ -54,8 +65,8 @@ const Header = () => {
       <div className="d-flex" style={{
         alignItems: 'center'
       }}>
-        <img src="./images/p1.jpg" alt="" style={{ width: '300px', height: '200px', marginRight: '10px', padding: '5px' }} />
-        <ul className="list-unstyled p-2">
+        <img src="./images/jersey1.png" alt="" style={{ width: '400px', height: '300px', marginRight: '10px', padding: '5px' }} />
+        <ul className="list p-2">
           <li>Fitness</li>
           <li>Outdoor</li>
           <li>Team Sports</li>
@@ -68,8 +79,8 @@ const Header = () => {
       <div className="d-flex" style={{
         alignItems: 'center'
       }}>
-        <img src="./images/p1.jpg" alt="" style={{ width: '300px', height: '200px', marginRight: '10px', padding: '5px' }} />
-        <ul className="list-unstyled p-2">
+        <img src="./images/p3.jpg" alt="" style={{ width: '400px', height: '300px', marginRight: '10px', padding: '5px' }} />
+        <ul className="list p-2">
           <li>Furniture</li>
           <li>Appliances</li>
           <li>Decor</li>
@@ -82,8 +93,8 @@ const Header = () => {
       <div className="d-flex" style={{
         alignItems: 'center'
       }}>
-        <img src="./images/p1.jpg" alt="" style={{ width: '300px', height: '200px', marginRight: '10px', padding: '5px' }} />
-        <ul className="list-unstyled p-2">
+        <img src="./images/camera3.jpg" alt="" style={{ width: '400px', height: '300px', marginRight: '10px', padding: '5px' }} />
+        <ul className="list p-2">
           <li>Fiction</li>
           <li>Non-Fiction</li>
           <li>Children's Books</li>

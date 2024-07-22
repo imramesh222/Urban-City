@@ -1,0 +1,48 @@
+/* Header Component */
+.nav-item .nav-link:hover {
+  cursor: pointer;
+}
+
+.dropdown-container {
+  position: absolute;
+  width: 70%;
+  right: 15%;
+
+  background-color: #8f6060;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  min-height: 200px;
+  z-index: 1000;
+}
+
+.dropdown-content {
+  display: flex;
+  flex-direction: row; /* Ensure content is in row direction */
+  flex-wrap: wrap; /* Allow wrapping */
+  gap: 10px;
+  width: 100%;
+  background-color: yellow;
+  justify-content: space-between; /* Center content horizontally */
+}
+
+.list {
+  display: flex; /* Make list a flex container */
+  flex-direction: row; /* Ensure items are in row direction */
+  flex-wrap: wrap; /* Allow items to wrap */
+  gap: 10px;
+}
+
+.list li {
+  flex: 1 1 calc(20% - 10px); /* Adjust the columns */
+  text-align: center;
+  color: black;
+  list-style: none;
+  cursor: pointer;
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+  align-items: center;
+}
+
+.list li:hover {
+  color: #fff;
+  background-color: black;
+}
