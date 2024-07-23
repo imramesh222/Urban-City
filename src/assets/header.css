@@ -20,6 +20,7 @@
   flex-direction: row; /* Ensure content is in row direction */
   flex-wrap: wrap; /* Allow wrapping */
   gap: 10px;
+
   width: 100%;
   background-color: yellow;
   justify-content: space-between; /* Center content horizontally */
