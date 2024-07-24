@@ -1,14 +1,17 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Layout from './Layout';
-import Card from './components/Card';  // Ensure this is correctly imported
+import Card from './components/Card';
+import Homepage from './pages/Homepage';
+import ProductPage from './pages/ProductPage';
 
 const MyRoute = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="card" element={<Card />} />
+          <Route index element={<Homepage />} /> {/* Setting Homepage as the default route */}
+          <Route path='/productspage' element={<ProductPage />} />
         </Route>
       </Routes>
     </Router>
