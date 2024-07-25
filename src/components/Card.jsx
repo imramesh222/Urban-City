@@ -1,13 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Card = ({ item }) => {
   if (!item) {
     return null;
   }
   return (
-    <div className="row m-4 gap-2">
+
+    <div className="row m-4 gap-2" style={{ textDecoration: 'none' }}>
       <div className="p-2 border rounded" style={{ width: '200px', height: '320px' }}>
-        <img src={item.image} alt="Shoe" style={{ color: 'red', width: '100%', height: '50%' }} />
+        <Link to={`/product/productdetails/${item.id}`}>
+          <img src={item.image} alt="Shoe" style={{ color: 'red', width: '100%', height: '50%', cursor: 'default' }} /></Link>
         <h4 className='fs-4'>{item.title.slice(0, 10)}</h4>
         <h5 className='text-success'>$ {item.price}</h5>
         <div className="d-flex justify-content-between">

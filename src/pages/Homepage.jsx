@@ -16,11 +16,17 @@ const Homepage = () => {
 
   return (
     <>
-      <div className="container d-flex col   g-2">
-        {products.slice(0, 4).map((product, i) => (
-          <Card item={product} key={i} />
-        ))}
-        <Link to="/productspage"><button className='btn btn-success'>Explore more</button></Link>
+      <div className="d-flex flex-column ">
+        <div className="d-flex col   g-2">
+
+          {products.slice(0, 4).map((product, i) => (
+            <Card item={product} key={i} />
+          ))}
+        </div>
+        <div className="d-flex justify-content-center mb-2">
+
+          <Link to="/productspage"><button className='btn btn-success'>Explore more</button></Link>
+        </div>
       </div>
 
     </>
