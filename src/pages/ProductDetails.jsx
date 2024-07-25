@@ -13,9 +13,7 @@ const ProductDetails = () => {
 
     axios
       .get(`https://fakestoreapi.com/products/${pid}`)
-      .then((res) => {
-        setProduct(res.data);
-      })
+      .then((res) => { setProduct(res.data); })
       .catch((err) => {
         console.log(err);
       });
