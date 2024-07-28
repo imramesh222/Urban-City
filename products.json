@@ -1,15 +1,6 @@
 {
   "products": [
     {
-      "product_id": 1,
-      "name": "Organic Quinoa",
-      "price": 8.99,
-      "category": "food",
-      "description": "High-quality organic quinoa, perfect for a healthy meal.",
-      "rating": 4.7,
-      "stock": 100
-    },
-    {
       "product_id": 2,
       "name": "Classic Leather Jacket",
       "price": 129.99,
@@ -21,61 +12,8 @@
         "colors": ["Red", "Blue", "Black", "White"]
       },
       "rating": 4.5,
-      "stock": 25
-    },
-    {
-      "product_id": 3,
-      "name": "Revitalizing Face Cream",
-      "price": 24.99,
-      "category": "cosmetics",
-      "description": "A luxurious face cream that revitalizes and hydrates your skin.",
-      "rating": 4.6,
-      "stock": 40
-    },
-    {
-      "product_id": 4,
-      "name": "Yoga Mat",
-      "price": 19.99,
-      "category": "sports",
-      "description": "Non-slip yoga mat for all your fitness needs.",
-      "rating": 4.8,
-      "stock": 50
-    },
-    {
-      "product_id": 5,
-      "name": "Stainless Steel Cookware Set",
-      "price": 79.99,
-      "category": "home and kitchen",
-      "description": "Durable stainless steel cookware set for everyday cooking.",
-      "rating": 4.9,
-      "stock": 30
-    },
-    {
-      "product_id": 6,
-      "name": "Mystery Novel",
-      "price": 14.99,
-      "category": "books",
-      "description": "A thrilling mystery novel that keeps you on the edge of your seat.",
-      "rating": 4.4,
-      "stock": 200
-    },
-    {
-      "product_id": 7,
-      "name": "Wireless Earbuds",
-      "price": 59.99,
-      "category": "electronics",
-      "description": "High-quality wireless earbuds with excellent sound clarity.",
-      "rating": 4.3,
-      "stock": 75
-    },
-    {
-      "product_id": 8,
-      "name": "Almond Butter",
-      "price": 12.99,
-      "category": "food",
-      "description": "Smooth and creamy almond butter, perfect for snacks and recipes.",
-      "rating": 4.5,
-      "stock": 80
+      "stock": 25,
+      "image": "public/images/jacket1.jpg"
     },
     {
       "product_id": 9,
@@ -89,61 +27,8 @@
         "colors": ["Red", "Blue", "White"]
       },
       "rating": 4.2,
-      "stock": 35
-    },
-    {
-      "product_id": 10,
-      "name": "Luxury Lipstick Set",
-      "price": 29.99,
-      "category": "cosmetics",
-      "description": "Set of vibrant, long-lasting lipsticks.",
-      "rating": 4.7,
-      "stock": 60
-    },
-    {
-      "product_id": 11,
-      "name": "Running Shoes",
-      "price": 89.99,
-      "category": "sports",
-      "description": "Comfortable and durable running shoes for all terrains.",
-      "rating": 4.5,
-      "stock": 40
-    },
-    {
-      "product_id": 12,
-      "name": "Ceramic Dinnerware Set",
-      "price": 99.99,
-      "category": "home and kitchen",
-      "description": "Elegant ceramic dinnerware set for formal dining.",
-      "rating": 4.8,
-      "stock": 20
-    },
-    {
-      "product_id": 13,
-      "name": "Science Fiction Anthology",
-      "price": 18.99,
-      "category": "books",
-      "description": "A collection of the best science fiction stories.",
-      "rating": 4.3,
-      "stock": 150
-    },
-    {
-      "product_id": 14,
-      "name": "Smart Home Assistant",
-      "price": 79.99,
-      "category": "electronics",
-      "description": "Voice-activated smart home assistant with AI capabilities.",
-      "rating": 4.6,
-      "stock": 60
-    },
-    {
-      "product_id": 15,
-      "name": "Gluten-Free Pasta",
-      "price": 6.99,
-      "category": "food",
-      "description": "Delicious gluten-free pasta made from rice and corn.",
-      "rating": 4.4,
-      "stock": 110
+      "stock": 35,
+      "image": "public/images/jacket2.jpg"
     },
     {
       "product_id": 16,
@@ -157,61 +42,8 @@
         "colors": ["Blue", "Black"]
       },
       "rating": 4.5,
-      "stock": 45
-    },
-    {
-      "product_id": 17,
-      "name": "Anti-Aging Serum",
-      "price": 34.99,
-      "category": "cosmetics",
-      "description": "Potent anti-aging serum with natural ingredients.",
-      "rating": 4.8,
-      "stock": 30
-    },
-    {
-      "product_id": 18,
-      "name": "Fitness Tracker",
-      "price": 49.99,
-      "category": "sports",
-      "description": "Water-resistant fitness tracker with heart rate monitor.",
-      "rating": 4.4,
-      "stock": 55
-    },
-    {
-      "product_id": 19,
-      "name": "Vacuum Cleaner",
-      "price": 159.99,
-      "category": "home and kitchen",
-      "description": "High-efficiency vacuum cleaner with multiple attachments.",
-      "rating": 4.7,
-      "stock": 20
-    },
-    {
-      "product_id": 20,
-      "name": "Historical Fiction Novel",
-      "price": 16.99,
-      "category": "books",
-      "description": "A captivating historical fiction novel set in the 1800s.",
-      "rating": 4.2,
-      "stock": 130
-    },
-    {
-      "product_id": 21,
-      "name": "Bluetooth Speaker",
-      "price": 29.99,
-      "category": "electronics",
-      "description": "Portable Bluetooth speaker with superior sound quality.",
-      "rating": 4.6,
-      "stock": 90
-    },
-    {
-      "product_id": 22,
-      "name": "Organic Green Tea",
-      "price": 10.99,
-      "category": "food",
-      "description": "Refreshing organic green tea, rich in antioxidants.",
-      "rating": 4.9,
-      "stock": 100
+      "stock": 45,
+      "image": "public/images/jacket3.jpg"
     },
     {
       "product_id": 23,
@@ -225,61 +57,8 @@
         "colors": ["Black", "Brown"]
       },
       "rating": 4.7,
-      "stock": 30
-    },
-    {
-      "product_id": 24,
-      "name": "Natural Face Mask",
-      "price": 19.99,
-      "category": "cosmetics",
-      "description": "Hydrating natural face mask with clay and herbal extracts.",
-      "rating": 4.5,
-      "stock": 50
-    },
-    {
-      "product_id": 25,
-      "name": "Basketball",
-      "price": 25.99,
-      "category": "sports",
-      "description": "Official size and weight basketball for all skill levels.",
-      "rating": 4.6,
-      "stock": 75
-    },
-    {
-      "product_id": 26,
-      "name": "Non-Stick Frying Pan",
-      "price": 24.99,
-      "category": "home and kitchen",
-      "description": "Durable non-stick frying pan for easy cooking.",
-      "rating": 4.4,
-      "stock": 40
-    },
-    {
-      "product_id": 27,
-      "name": "Self-Help Book",
-      "price": 12.99,
-      "category": "books",
-      "description": "An inspirational self-help book for personal growth.",
-      "rating": 4.3,
-      "stock": 120
-    },
-    {
-      "product_id": 28,
-      "name": "Digital Camera",
-      "price": 199.99,
-      "category": "electronics",
-      "description": "Compact digital camera with high-resolution lens.",
-      "rating": 4.5,
-      "stock": 25
-    },
-    {
-      "product_id": 29,
-      "name": "Vegan Protein Powder",
-      "price": 29.99,
-      "category": "food",
-      "description": "Plant-based protein powder with all essential amino acids.",
-      "rating": 4.6,
-      "stock": 60
+      "stock": 30,
+      "image": "public/images/black-fashion-gumshoes.jpg"
     },
     {
       "product_id": 30,
@@ -293,7 +72,208 @@
         "colors": ["Red", "Blue", "Black", "White"]
       },
       "rating": 4.4,
-      "stock": 70
+      "stock": 70,
+      "image": "public/images/tshirt5.jpg"
+    },
+    {
+      "product_id": 3,
+      "name": "Revitalizing Face Cream",
+      "price": 24.99,
+      "category": "cosmetics",
+      "description": "A luxurious face cream that revitalizes and hydrates your skin.",
+      "rating": 4.6,
+      "stock": 40,
+      "image": "public/images/lipstick1.jpg"
+    },
+    {
+      "product_id": 10,
+      "name": "Luxury Lipstick Set",
+      "price": 29.99,
+      "category": "cosmetics",
+      "description": "Set of vibrant, long-lasting lipsticks.",
+      "rating": 4.7,
+      "stock": 60,
+      "image": "public/images/lipstick2.jpg"
+    },
+    {
+      "product_id": 17,
+      "name": "Anti-Aging Serum",
+      "price": 34.99,
+      "category": "cosmetics",
+      "description": "Potent anti-aging serum with natural ingredients.",
+      "rating": 4.8,
+      "stock": 30,
+      "image": "public/images/Rlogo.jpg"
+    },
+    {
+      "product_id": 24,
+      "name": "Natural Face Mask",
+      "price": 19.99,
+      "category": "cosmetics",
+      "description": "Hydrating natural face mask with clay and herbal extracts.",
+      "rating": 4.5,
+      "stock": 50,
+      "image": "public/images/p1.jpg"
+    },
+    {
+      "product_id": 7,
+      "name": "Wireless Earbuds",
+      "price": 59.99,
+      "category": "electronics",
+      "description": "High-quality wireless earbuds with excellent sound clarity.",
+      "rating": 4.3,
+      "stock": 75,
+      "image": "public/images/phone1.png"
+    },
+    {
+      "product_id": 14,
+      "name": "Smart Home Assistant",
+      "price": 79.99,
+      "category": "electronics",
+      "description": "Voice-activated smart home assistant with AI capabilities.",
+      "rating": 4.6,
+      "stock": 60,
+      "image": "public/images/laptop1.png"
+    },
+    {
+      "product_id": 21,
+      "name": "Bluetooth Speaker",
+      "price": 29.99,
+      "category": "electronics",
+      "description": "Portable Bluetooth speaker with superior sound quality.",
+      "rating": 4.6,
+      "stock": 90,
+      "image": "public/images/camera2.jpg"
+    },
+    {
+      "product_id": 28,
+      "name": "Digital Camera",
+      "price": 199.99,
+      "category": "electronics",
+      "description": "Compact digital camera with high-resolution lens.",
+      "rating": 4.5,
+      "stock": 25,
+      "image": "public/images/camera3.jpg"
+    },
+    {
+      "product_id": 4,
+      "name": "Yoga Mat",
+      "price": 19.99,
+      "category": "sports",
+      "description": "Non-slip yoga mat for all your fitness needs.",
+      "rating": 4.8,
+      "stock": 50,
+      "image": "public/images/background.png"
+    },
+    {
+      "product_id": 11,
+      "name": "Running Shoes",
+      "price": 89.99,
+      "category": "sports",
+      "description": "Comfortable and durable running shoes for all terrains.",
+      "rating": 4.5,
+      "stock": 40,
+      "image": "public/images/shoe1.jpg"
+    },
+    {
+      "product_id": 18,
+      "name": "Fitness Tracker",
+      "price": 49.99,
+      "category": "sports",
+      "description": "Water-resistant fitness tracker with heart rate monitor.",
+      "rating": 4.4,
+      "stock": 55,
+      "image": "public/images/9828072_3339.jpg"
+    },
+    {
+      "product_id": 25,
+      "name": "Basketball",
+      "price": 25.99,
+      "category": "sports",
+      "description": "Official size and weight basketball for all skill levels.",
+      "rating": 4.6,
+      "stock": 75,
+      "image": "public/images/p2.jpg"
+    },
+    {
+      "product_id": 5,
+      "name": "Stainless Steel Cookware Set",
+      "price": 79.99,
+      "category": "home and kitchen",
+      "description": "Durable stainless steel cookware set for everyday cooking.",
+      "rating": 4.9,
+      "stock": 30,
+      "image": "public/images/p3.jpg"
+    },
+    {
+      "product_id": 12,
+      "name": "Ceramic Dinnerware Set",
+      "price": 99.99,
+      "category": "home and kitchen",
+      "description": "Elegant ceramic dinnerware set for formal dining.",
+      "rating": 4.8,
+      "stock": 20,
+      "image": "public/images/p4.jpg"
+    },
+    {
+      "product_id": 19,
+      "name": "Vacuum Cleaner",
+      "price": 159.99,
+      "category": "home and kitchen",
+      "description": "High-efficiency vacuum cleaner with multiple attachments.",
+      "rating": 4.7,
+      "stock": 20,
+      "image": "public/images/p5.jpg"
+    },
+    {
+      "product_id": 26,
+      "name": "Non-Stick Frying Pan",
+      "price": 24.99,
+      "category": "home and kitchen",
+      "description": "Durable non-stick frying pan for easy cooking.",
+      "rating": 4.4,
+      "stock": 40,
+      "image": "public/images/sweater1.jpg"
+    },
+    {
+      "product_id": 6,
+      "name": "Mystery Novel",
+      "price": 14.99,
+      "category": "books",
+      "description": "A thrilling mystery novel that keeps you on the edge of your seat.",
+      "rating": 4.4,
+      "stock": 200,
+      "image": "public/images/b1.jpg"
+    },
+    {
+      "product_id": 13,
+      "name": "Science Fiction Anthology",
+      "price": 18.99,
+      "category": "books",
+      "description": "A collection of the best science fiction stories.",
+      "rating": 4.3,
+      "stock": 150,
+      "image": "public/images/b2.jpg"
+    },
+    {
+      "product_id": 20,
+      "name": "Historical Fiction Novel",
+      "price": 16.99,
+      "category": "books",
+      "description": "A captivating historical fiction novel set in the 1800s.",
+      "rating": 4.2,
+      "stock": 130,
+      "image": "public/images/b3.jpg"
+    },
+    {
+      "product_id": 27,
+      "name": "Self-Help Book",
+      "price": 12.99,
+      "category": "books",
+      "description": "An inspirational self-help book for personal growth.",
+      "rating": 4.3,
+      "stock": 120,
+      "image": "public/images/logo1.jpg"
     }
   ]
 }

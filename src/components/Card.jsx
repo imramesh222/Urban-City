@@ -7,11 +7,11 @@ const Card = ({ item }) => {
   }
   return (
 
-    <div className="row m-4 gap-2" style={{ textDecoration: 'none' }}>
+    <div className="m-2 gap-1" style={{ textDecoration: 'none' }}>
       <div className="p-2 border rounded" style={{ width: '200px', height: '320px' }}>
         <Link to={`/product/productdetails/${item.id}`}>
           <img src={item.image} alt="Shoe" style={{ color: 'red', width: '100%', height: '50%', cursor: 'default' }} /></Link>
-        <h4 className='fs-4'>{item.title.slice(0, 10)}</h4>
+        <h4 className='fs-4'>{item.name.slice(0, 10)}</h4>
         <h5 className='text-success'>$ {item.price}</h5>
         <div className="d-flex justify-content-between">
           <button className='btn btn-primary'>Add to cart</button>
