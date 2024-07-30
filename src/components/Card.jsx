@@ -13,7 +13,7 @@ const Card = ({ item }) => {
     <>
       <div className="m-1 gap-1" style={{ textDecoration: 'none' }} data-aos="fade-up">
         <div className="p-2 border rounded shadow bg-white" style={{ width: '200px', height: '320px' }}>
-          <Link to={`/product/productdetails/${item.id}`}>
+          <Link to={`/product/productdetails/${item.pid}`}>
             <img src={item.image} alt="Shoe" style={{ color: 'red', width: '100%', height: '50%', cursor: 'default' }} /></Link>
           <h4 className='fs-4'>{item.name.slice(0, 10)}</h4>
           <h5 className='text-success'>$ {item.price}</h5>
