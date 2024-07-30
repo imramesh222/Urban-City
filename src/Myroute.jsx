@@ -13,7 +13,7 @@ const MyRoute = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<Homepage />} /> {/* Setting Homepage as the default route */}
           <Route path='/productspage' element={<ProductPage />} />
-          <Route path='product/productdetails/:product_id' element={<ProductDetails />} />
+          <Route path='product/productdetails/:pid' element={<ProductDetails />} />
         </Route>
       </Routes>
     </Router>

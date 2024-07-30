@@ -9,13 +9,6 @@ const ProductPage = () => {
   useEffect(() => {
     axios
       .get("../products.json")
-      // .then((res) => {
-      //   if (Array.isArray(res.data.products)) {
-      //     setProducts(res.data.products)
-      //   } else {
-      //     console.error("Expected an array in the response, but got:", res.data)
-      //   }
-      // })
       .then(res => setProducts(res.data.products))
       .catch((err) => console.log(err))
   }, [])
