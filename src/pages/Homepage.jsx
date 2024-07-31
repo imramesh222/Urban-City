@@ -5,6 +5,9 @@ import { Link } from 'react-router-dom'
 import Aos from 'aos'
 import Carousel1 from '../components/Carousel1'
 import Carousel2 from '../components/Carousel2'
+import Departments from '../components/Departments'
+
+
 
 
 const Homepage = () => {
@@ -23,12 +26,21 @@ const Homepage = () => {
     <>
       <div className="container" data-aos="fade-up">
         <Carousel2 />
-        <Carousel1 />
+        <div className="d-felx">
+          <div className="col-4">
+
+            <Departments />
+          </div>
+          <div className="col-7">
+
+            <Carousel1 />
+          </div>
+        </div>
       </div>
       <div className="d-flex flex-column ">
         <h1 className='text-center'>Top Fashions</h1>
         <div className="container d-flex  flex-wrap " >
-          {products.slice(0, 30).map((product, i) => (
+          {products.slice(0, 5).map((product, i) => (
             <Card item={product} key={i} />
           ))}
         </div>

@@ -34,7 +34,7 @@ const Header = () => {
       </div>
     ),
     health: (
-      <div className="d-flex " style={{
+      <div className="d-flex" style={{
         alignItems: 'center'
       }}>
         <img src="./images/lipstick1.jpg" alt="" style={{ width: '400px', height: '300px', marginRight: '10px', padding: '5px' }} />
@@ -115,7 +115,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="container-fluid p-3">
+      <div className="container-fluid p-3" >
         <div className=" p-2">
           <div className="row align-items-center justify-content-between col-12">
             <div className="col-12 col-md-4 col-sm-1 d-flex align-items-center mb-2 mb-lg-0">
@@ -153,7 +153,7 @@ const Header = () => {
 
       {/* Nav */}
       <div className="container" onMouseLeave={handleMouseLeave}>
-        <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 fw-bold">
+        <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 fw-bold"  >
           <li className="nav-item" onMouseEnter={() => handleMouseEnter('fashion')}>
             <a href="#" className="nav-link px-2 text-secondary">
               Fashions
@@ -186,8 +186,8 @@ const Header = () => {
           </li>
         </ul>
         {dropdownContent && (
-          <div className="dropdown-container">
-            <div className="dropdown-content">
+          <div className="dropdown-container" >
+            <div className="dropdown-content" data-aos="fade-up">
               {dropdownContent}
             </div>
           </div>

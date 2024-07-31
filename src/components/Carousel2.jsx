@@ -40,17 +40,17 @@ const Carousel2 = () => {
   };
   return (
     <>
-      <div className="slider-container my-4 ">
+      <div className="slider-container my-4  ">
         <Slider {...settings}>
           <div className="bg-secondary w-100" >
 
-            <img src="./images/daraz3.jpg" alt="" height={'300'} width={'100%'} />
+            <img src="./images/daraz3.jpg" alt="" height={'200'} width={'100%'} />
           </div>
           <div className="bg-secondary w-100" >
-            <img src="./images/daraz2.jpg" alt="" height={'300'} width={'100%'} />
+            <img src="./images/daraz2.jpg" alt="" height={'200'} width={'100%'} />
           </div>
           <div className="bg-secondary w-100" >
-            <img src="./images/daraz1.jpg" alt="" height={'300'} width={'100%'} />
+            <img src="./images/daraz1.jpg" alt="" height={'200'} width={'100%'} />
           </div>
 
 

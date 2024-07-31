@@ -3,7 +3,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 import axios from 'axios';
-import Card from './Card';
+
+import Card2 from './Card2';
 
 const Carousel1 = () => {
   const [products, setProducts] = useState([]);
@@ -13,13 +14,13 @@ const Carousel1 = () => {
       .get("../products.json")
       .then((res) => setProducts(res.data.products))
       .catch((err) => console.log(err));
-  }, []); // Dependency array to prevent infinite loop
+  }, []);
 
   const settings = {
-    dots: true,
-    infinite: true,
+    dots: false,
+    infinite: 1,
     speed: 500,
-    slidesToShow: 5,
+    slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
@@ -51,15 +52,18 @@ const Carousel1 = () => {
   };
 
   return (
-    <div className="slider-container my-4 ">
-      <Slider {...settings}>
-        {products.slice(10, 20).map((product, i) => (
-          <div className="bg-danger col px-2" key={i}>
-            <Card item={product} />
-          </div>
-        ))}
-      </Slider>
-    </div>
+    <>
+      <div className="container  my-4 bg-danger" data-aos="fade-left">
+        <h3 className='text-center text-light pt-2 fw-bold'>Highlights of the day</h3>
+        <Slider {...settings}>
+          {products.slice(10, 20).map((product, i) => (
+            <div className=" col p-4 " key={i}>
+              <Card2 item={product} />
+            </div>
+          ))}
+        </Slider>
+      </div>
+    </>
   );
 };
 
