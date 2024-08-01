@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "product_id": 2,
+      "pid": 2,
       "name": "Classic Leather Jacket",
       "price": 129.99,
       "category": "fashion",
@@ -16,7 +16,7 @@
       "image": "public/images/jacket1.jpg"
     },
     {
-      "product_id": 9,
+      "pid": 9,
       "name": "Floral Summer Dress",
       "price": 49.99,
       "category": "fashion",
@@ -31,7 +31,7 @@
       "image": "public/images/jacket2.jpg"
     },
     {
-      "product_id": 16,
+      "pid": 16,
       "name": "Denim Jeans",
       "price": 59.99,
       "category": "fashion",
@@ -46,7 +46,7 @@
       "image": "public/images/jacket3.jpg"
     },
     {
-      "product_id": 23,
+      "pid": 23,
       "name": "Leather Boots",
       "price": 149.99,
       "category": "fashion",
@@ -61,7 +61,7 @@
       "image": "public/images/black-fashion-gumshoes.jpg"
     },
     {
-      "product_id": 30,
+      "pid": 30,
       "name": "Casual T-Shirt",
       "price": 19.99,
       "category": "fashion",
@@ -76,7 +76,7 @@
       "image": "public/images/tshirt5.jpg"
     },
     {
-      "product_id": 3,
+      "pid": 3,
       "name": "Revitalizing Face Cream",
       "price": 24.99,
       "category": "cosmetics",
@@ -86,7 +86,7 @@
       "image": "public/images/lipstick1.jpg"
     },
     {
-      "product_id": 10,
+      "pid": 10,
       "name": "Luxury Lipstick Set",
       "price": 29.99,
       "category": "cosmetics",
@@ -96,7 +96,7 @@
       "image": "public/images/lipstick2.jpg"
     },
     {
-      "product_id": 17,
+      "pid": 17,
       "name": "Anti-Aging Serum",
       "price": 34.99,
       "category": "cosmetics",
@@ -106,7 +106,7 @@
       "image": "public/images/Rlogo.jpg"
     },
     {
-      "product_id": 24,
+      "pid": 24,
       "name": "Natural Face Mask",
       "price": 19.99,
       "category": "cosmetics",
@@ -116,7 +116,7 @@
       "image": "public/images/p1.jpg"
     },
     {
-      "product_id": 7,
+      "pid": 7,
       "name": "Wireless Earbuds",
       "price": 59.99,
       "category": "electronics",
@@ -126,7 +126,7 @@
       "image": "public/images/phone1.png"
     },
     {
-      "product_id": 14,
+      "pid": 14,
       "name": "Smart Home Assistant",
       "price": 79.99,
       "category": "electronics",
@@ -136,7 +136,7 @@
       "image": "public/images/laptop1.png"
     },
     {
-      "product_id": 21,
+      "pid": 21,
       "name": "Bluetooth Speaker",
       "price": 29.99,
       "category": "electronics",
@@ -146,7 +146,7 @@
       "image": "public/images/camera2.jpg"
     },
     {
-      "product_id": 28,
+      "pid": 28,
       "name": "Digital Camera",
       "price": 199.99,
       "category": "electronics",
@@ -156,7 +156,7 @@
       "image": "public/images/camera3.jpg"
     },
     {
-      "product_id": 4,
+      "pid": 4,
       "name": "Yoga Mat",
       "price": 19.99,
       "category": "sports",
@@ -166,7 +166,7 @@
       "image": "public/images/background.png"
     },
     {
-      "product_id": 11,
+      "pid": 11,
       "name": "Running Shoes",
       "price": 89.99,
       "category": "sports",
@@ -176,7 +176,7 @@
       "image": "public/images/shoe1.jpg"
     },
     {
-      "product_id": 18,
+      "pid": 18,
       "name": "Fitness Tracker",
       "price": 49.99,
       "category": "sports",
@@ -186,7 +186,7 @@
       "image": "public/images/9828072_3339.jpg"
     },
     {
-      "product_id": 25,
+      "pid": 25,
       "name": "Basketball",
       "price": 25.99,
       "category": "sports",
@@ -196,7 +196,7 @@
       "image": "public/images/p2.jpg"
     },
     {
-      "product_id": 5,
+      "pid": 5,
       "name": "Stainless Steel Cookware Set",
       "price": 79.99,
       "category": "home and kitchen",
@@ -206,7 +206,7 @@
       "image": "public/images/p3.jpg"
     },
     {
-      "product_id": 12,
+      "pid": 12,
       "name": "Ceramic Dinnerware Set",
       "price": 99.99,
       "category": "home and kitchen",
@@ -216,7 +216,7 @@
       "image": "public/images/p4.jpg"
     },
     {
-      "product_id": 19,
+      "pid": 19,
       "name": "Vacuum Cleaner",
       "price": 159.99,
       "category": "home and kitchen",
@@ -226,7 +226,7 @@
       "image": "public/images/p5.jpg"
     },
     {
-      "product_id": 26,
+      "pid": 26,
       "name": "Non-Stick Frying Pan",
       "price": 24.99,
       "category": "home and kitchen",
@@ -236,7 +236,7 @@
       "image": "public/images/sweater1.jpg"
     },
     {
-      "product_id": 6,
+      "pid": 6,
       "name": "Mystery Novel",
       "price": 14.99,
       "category": "books",
@@ -246,7 +246,7 @@
       "image": "public/images/b1.jpg"
     },
     {
-      "product_id": 13,
+      "pid": 13,
       "name": "Science Fiction Anthology",
       "price": 18.99,
       "category": "books",
@@ -256,7 +256,7 @@
       "image": "public/images/b2.jpg"
     },
     {
-      "product_id": 20,
+      "pid": 20,
       "name": "Historical Fiction Novel",
       "price": 16.99,
       "category": "books",
@@ -266,7 +266,7 @@
       "image": "public/images/b3.jpg"
     },
     {
-      "product_id": 27,
+      "pid": 27,
       "name": "Self-Help Book",
       "price": 12.99,
       "category": "books",
