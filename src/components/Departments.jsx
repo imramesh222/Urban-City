@@ -6,7 +6,7 @@ const Departments = () => {
       <div className="d-flex flex-column">
 
         <div className=" p-2 bg-light">
-          <h3>All depratments</h3>
+          <h3>Categoriess</h3>
           <p className="text-primary">See all</p>
           <hr />
           <div className="mb-2">
@@ -30,7 +30,7 @@ const Departments = () => {
             <label>Books</label>
           </div>
         </div>
-        <div className="p-2 bg-light">
+        {/* <div className="p-2 bg-light">
           <h3>Categories</h3>
           <hr />
           <div className="mb-2">
@@ -38,7 +38,7 @@ const Departments = () => {
             <label>Books</label>
           </div>
 
-        </div>
+        </div> */}
       </div>
     </>
   )

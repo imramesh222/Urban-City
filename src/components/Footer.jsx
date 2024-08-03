@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-dark pt-4">
+    <footer className="bg-primary text-dark pt-4" data-aos="fade-up">
       <div className="container-fluid">
         <div className="row">
 

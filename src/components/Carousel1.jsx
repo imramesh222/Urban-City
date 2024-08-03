@@ -16,10 +16,12 @@ const Carousel1 = () => {
       .catch((err) => console.log(err));
   }, []);
 
+
   const settings = {
-    dots: false,
-    infinite: 1,
+    dots: true,
+    infinite: true,
     speed: 500,
+    centerPadding: '0px',
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
@@ -36,8 +38,8 @@ const Carousel1 = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           initialSlide: 2,
         },
       },
@@ -53,15 +55,18 @@ const Carousel1 = () => {
 
   return (
     <>
-      <div className="container  my-4 bg-danger" data-aos="fade-left">
-        <h3 className='text-center text-light pt-2 fw-bold'>Highlights of the day</h3>
-        <Slider {...settings}>
-          {products.slice(10, 20).map((product, i) => (
-            <div className=" col p-4 " key={i}>
-              <Card2 item={product} />
-            </div>
-          ))}
-        </Slider>
+      <div className="px-4  my-4 " data-aos="fade-left">
+        <h3 className='text-center text-dark pt-2 fw-bold text-uppercase'>Highlights of the day</h3>
+        <div className="bg-danger">
+
+          <Slider {...settings}>
+            {products.slice(10, 20).map((product, i) => (
+              <div className="d-flex justify-content-between" key={i}>
+                <Card2 item={product} />
+              </div>
+            ))}
+          </Slider>
+        </div>
       </div>
     </>
   );

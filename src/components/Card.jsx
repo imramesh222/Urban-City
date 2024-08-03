@@ -8,7 +8,7 @@ const Card = ({ item }) => {
   }
 
   return (
-    <div className="m-1 gap-1" style={{ textDecoration: 'none' }} data-aos="fade-up">
+    <div className="m-1 gap-2" style={{ textDecoration: 'none' }} data-aos="fade-up">
       <div className="p-2 border rounded shadow bg-white" style={{ width: '200px', height: '320px' }}>
         <Link to={`/product/productdetails/${item.pid}`}>
           <img src={item.image} alt={item.name} style={{ color: 'red', width: '100%', height: '50%', cursor: 'default' }} />
