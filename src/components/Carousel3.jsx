@@ -19,15 +19,17 @@ const Carousel3 = () => {
   const settings = {
     centerMode: true,
     centerPadding: '0px',
-    slidesToShow: 5,
+    slidesToShow: 3,
     afterChange: current => setCurrentSlide(current),
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 5,
+          arrows: false,
+          slidesToShow: 3,
           slidesToScroll: 1,
-          initialSlide: 5,
+          initialSlide: 3,
+          centerPadding: '0px',
           infinite: true,
           dots: false,
         },
@@ -36,8 +38,8 @@ const Carousel3 = () => {
           arrows: false,
           centerMode: true,
           centerPadding: '0px',
-          slidesToShow: 2,
-          initialSlide: 2
+          slidesToShow: 1,
+          initialSlide: 1
         },
       },
       {
@@ -59,8 +61,8 @@ const Carousel3 = () => {
     <div className="container" >
       <h3 className='text-center text-dark  fw-bold text-uppercase' data-aos="fade-right">New arrivals</h3>
       <Slider {...settings}>
-        {products.map((product, i) => (
-          <div className="d-flex justify-content-between " key={i}>
+        {products.slice(10, 24).map((product, i) => (
+          <div className="d-flex justify-content-center " key={i}>
             <Card2 item={product} />
           </div>
 

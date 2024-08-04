@@ -35,6 +35,7 @@ const Carousel1 = () => {
           slidesToScroll: 3,
           infinite: true,
           dots: false,
+          arrows: false,
         },
       },
       {
@@ -44,6 +45,7 @@ const Carousel1 = () => {
           centerPadding: '0px',
           slidesToScroll: 1,
           initialSlide: 2,
+          arrows: false,
         },
       },
       {
@@ -52,6 +54,7 @@ const Carousel1 = () => {
           slidesToShow: 1,
           centerPadding: '0px',
           slidesToScroll: 1,
+          arrows: false,
         },
       },
     ],

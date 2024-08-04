@@ -30,12 +30,14 @@ const Homepage = () => {
         </div>
       </div>
 
-      <div className="bg-secondary d-flex justify-content-between flex-wrap mt-4">
-
-        <div className="col-md-5 col-lg-6 mb-3">
+      <div className="d-flex  mt-4 overflow-hidden " style={{
+        maxWidth: '100%',
+        padding: ' 0 15px'
+      }}>
+        <div className="col-12 col-md-6  mb-3 px-2">
           <Carousel3 />
         </div>
-        <div className="col-md-5 col-lg-6 mb-3">
+        <div className="col-12 col-md-6 mb-3 px-2">
           <Carousel1 />
         </div>
       </div>
@@ -55,7 +57,7 @@ const Homepage = () => {
 
       <div className="container text-center my-4">
         <Link to="/productspage">
-          <button className='btn btn-success'>Explore more</button>
+          <button className='btn btn-success' data-aos='fade-right'>Explore more</button>
         </Link>
 
       </div>
