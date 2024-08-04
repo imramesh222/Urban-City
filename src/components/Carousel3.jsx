@@ -61,7 +61,7 @@ const Carousel3 = () => {
     <div className="container" >
       <h3 className='text-center text-dark  fw-bold text-uppercase' data-aos="fade-right">New arrivals</h3>
       <Slider {...settings}>
-        {products.slice(10, 24).map((product, i) => (
+        {products.slice(18, 30).map((product, i) => (
           <div className="d-flex justify-content-center " key={i}>
             <Card2 item={product} />
           </div>
