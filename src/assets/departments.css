@@ -1,0 +1,25 @@
+/* Departments.css */
+.departments-container {
+  max-width: 300px;
+  margin: auto;
+  background-color: #f8f9fa;
+}
+
+.categories-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.categories-header .see-all {
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.categories-list .form-check-input {
+  cursor: pointer;
+}
+
+.categories-list .form-check-label {
+  cursor: pointer;
+}

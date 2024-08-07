@@ -1,6 +1,7 @@
 import 'aos/dist/aos.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../assets/card.css';
 
 const Card = ({ item }) => {
   if (!item) {
@@ -8,19 +9,21 @@ const Card = ({ item }) => {
   }
 
   return (
-    <div className="m-1 gap-2" style={{ textDecoration: 'none' }} data-aos="fade-left">
-      <div className="p-2 border rounded shadow bg-white" style={{ width: '200px', height: '320px' }}>
+    <div className="card-container gap-1 mx-1 border rounded-bottom" data-aos="fade-left">
+      <div className="card-content border rounded-bottom shadow bg-white">
         <Link to={`/product/productdetails/${item.pid}`}>
-          <img src={item.image} alt={item.name} style={{ color: 'red', width: '100%', height: '50%', cursor: 'default' }} />
+          <img src={item.image} alt={item.name} className="card-img" />
         </Link>
-        <h4 className='fs-4'>{item.name.slice(0, 10)}</h4>
-        <h5 className='text-success'>$ {item.price}</h5>
-        <div className="d-flex justify-content-between">
-          <button className='btn btn-primary'>Add to cart</button>
-          <Link to={`/product/productdetails/${item.pid}`} className='btn btn-success'>Details</Link>
+        <div className="card-body p-2">
+          <h4 className='card-title fs-6'>{item.name.slice(0, 15)}</h4>
+          <h6 className="card-subtitle fs-7 text-secondary">{item.details.brand}</h6>
+          <h5 className='card-price text-success'>$ {item.price}</h5>
         </div>
-        <hr className='container-fluid' />
-        <p className='text-end' style={{ fontSize: '14px', marginBottom: '5px' }}>Last updated at 02/03/2024</p>
+        <div className="d-flex justify-content-center w-100 border rounded-bottom">
+          <Link to={`/product/productdetails/${item.pid}`} className='btn btn-success w-100 rounded-bottom'>
+            Add to Cart
+          </Link>
+        </div>
       </div>
     </div>
   );
