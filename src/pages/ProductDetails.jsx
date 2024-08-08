@@ -137,7 +137,12 @@ const ProductDetail = () => {
                 min="1"
               />
             </div>
-            <button className="btn btn-primary btn-lg mt-4" onClick={addToCart}>Add to Cart</button>
+            <div className="d-flex justify-content-between w-50 ">
+              <button className="btn btn-primary btn-lg mt-4" onClick={addToCart}>Add to Cart</button>
+              <Link to="/cartpage" className="">
+                <button className="btn btn-success btn-lg mt-4" >Check out</button>
+              </Link>
+            </div>
           </div>
         </div>
         {product.details && product.details.brand && (

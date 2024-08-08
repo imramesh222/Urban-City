@@ -2,6 +2,7 @@ import 'aos/dist/aos.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../assets/card.css';
+import RatingStar from './RatingStar';
 
 const Card = ({ item }) => {
   if (!item) {
@@ -9,14 +10,14 @@ const Card = ({ item }) => {
   }
 
   return (
-    <div className="card-container gap-1 mx-1 border rounded-bottom" data-aos="fade-left">
+    <div className="card-container justify-content-center d-flex gap-1 mx-1 border rounded-bottom" data-aos="fade-left">
       <div className="card-content border rounded-bottom shadow bg-white">
         <Link to={`/product/productdetails/${item.pid}`}>
           <img src={item.image} alt={item.name} className="card-img" />
         </Link>
         <div className="card-body p-2">
           <h4 className='card-title fs-6'>{item.name.slice(0, 15)}</h4>
-          <h6 className="card-subtitle fs-7 text-secondary">{item.details.brand}</h6>
+          <RatingStar rating={item.rating} />
           <h5 className='card-price text-success'>$ {item.price}</h5>
         </div>
         <div className="d-flex justify-content-center w-100 border rounded-bottom">

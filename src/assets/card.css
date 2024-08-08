@@ -1,5 +1,7 @@
 /* Card.css */
 .card-container {
+  width: 200px;
+  height: 295px;
   text-decoration: none;
   background-color: #28a745;
 }
