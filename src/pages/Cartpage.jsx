@@ -29,7 +29,7 @@ const Cart = () => {
   };
 
   const handleConfirmCheckout = () => {
-    // Logic for checkout can go here
+    // Logic for checkout can go here is
     setShowModal(false);
     alert('Checkout confirmed!');
   };
